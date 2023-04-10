@@ -1,13 +1,136 @@
- <!DOCTYPE html>
- <html lang "fr">
+
+ 
+
+<!DOCTYPE html>
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=devise-width, initial-scale=1.0">
-        <title>Document</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE-edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MON CURRICULUM VITAE</title>
+        <style>
+            table, th, td {
 
+              border: 1px solid black;
 
+                      }
+
+              th, td {
+
+              padding: 10px;
+
+                     }
+            table, tr {
+                border-collapse: collapse;
+            }  
+        </style>
     </head>
-        <body>
-            <h1>Hello world</h1>
-        </body>
-    </html>    
+    <body>
+      <h1>CURRICULUM VITAE </h1> <img src="images/amour.jpg" alt="mon profil" width="100px" height="100px">
+      
+      <h2><em> IDENTITE PERSONNELLE </em></h2>
+       <ul>
+        <li>Nom: Miatelana</li>
+        <li>lieu et date de naissance: kinshasa, le 11/10/1988</li>
+        <li>sexe: Feminin</li>
+        <li>Etat civil: celibataire</li>
+        <li>Nationalité: congolaise</li>
+        <li>Adresse: 15, AV.Nguba, Q/golf Malela, C/ Lubumbashi</li>
+       </ul> 
+      
+      <h2><em> ETUDES ET FORMATIONS </em></h2>
+      <ul>
+        <li>2016: formation en informatique(windows,word,excel),centre de formation <b>AFPE-NTIC</b></li>
+        <li>2013: licenciée en economie publique,université Pedagogique Nationale<mark> UPN </mark></li>
+        <li>2011: graduée en sciences commerciales et Administratives,université Pedagogique Nationale<mark> UPN </mark></li>
+      </ul>
+      <h2><em>EXPERIENCES PROFESSIONNELLES </em></h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Année</th>
+                <th>Poste occupée</th>
+                <th>nom de l'entreprise</th>
+                <th>localisation</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                 <td>2019</td>
+                 <td>Gerante</td>
+                 <td>KETSIA boutique</td>
+                 <td>Lubumbashi</td>
+              </tr>
+              <tr>
+                <td>2015</td>
+                <td>Gerante</td>
+                <td>CB Bussiness</td>
+                <td>Kinshasa</td>
+             </tr>
+             <tr>
+              <td>2014</td>
+              <td>Agent commercial</td>
+              <td>Groupe SAGGA diffusion</td>
+              <td>Kinshasa</td>
+           </tr>
+           <tr>
+            <td>2011</td>
+            <td>Agent de caisse</td>
+            <td>MAKENA trans</td>
+            <td>Kinshasa</td>
+         </tr>
+            </tbody>
+
+          </table>
+      <h2><em>CONNAISSANCES EN LANGUES </em></h2>
+      <ol>
+        <li>Anglais (moyen)</li>
+        <li>Français</li>
+        <li>Kikongo</li>
+        <li>swahili</li>
+      </ol>
+      <h2><em> CONNAISSANCE EN INFORMATIQUE </em></h2>
+       <ol>
+        <li>word</li>
+        <li>excel</li>
+        <li>langage de programmation (html, css, javascrit)</li> 
+       </ol>
+            <p>je m'appelle Amour-julja je vis à lubumbashi, suis passionnée de l'informatique, une science que j'ai aimée et apris le debut mon enfance, je desire de m'ameliorer encore plus dans ce domaine.
+               ensemble avec Mr Jean claude Mbiya "LE COACH" je penses voir les merveilles tant desirer dans la communauté "LETECODE." </p>
+            <p>vous trouverez ci dessous mes contacts</p>
+            
+      <h2> FORMULAIRE </h2>
+        <div class="contactez-nous">
+          <h3>Contactez-nous</h3>
+            <p>un probleme, une question et autres preoccupation, n'hesitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+              <form action="/page-traitement-donnees" method="post">
+              <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Amour-Julja" required>
+              </div>
+              <div>
+                <label for="email">Votre e-mail</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+              </div>
+              <div>
+                <label for="sujet">Quel est le sujet de votre message?</label>
+                <select name="sujet" id="sujet" required>
+                  <option value="disabled selected hidden">choisissez le sujet de votre message</option>
+                  <option value="probleme-compte">probleme avec mon compte</option>
+                  <option value="autre">Autre...</option>
+                </select>
+              </div>
+              <div>
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Bonjour, je vous contacte car..." required></textarea>
+              </div>
+              <div>
+                <button type="sumbit">envoyer mon message</button>
+              </div>
+              </form>
+            </div>
+          <h2>MES CONTACTS</h2>
+          <li><a href="contact.html">mes contacts</li> <br/>
+    </body>
+</html>  
